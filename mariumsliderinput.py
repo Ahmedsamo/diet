@@ -64,7 +64,7 @@ with model_training:
     lrgr.fit(X, y)
 
 
-     pred= lrgr.predict(df)
+     pred= lrgr.predict(data)
     st.write(y)
 
     
