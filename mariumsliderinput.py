@@ -64,8 +64,11 @@ with model_training:
     lrgr.fit(X, y)
 
 
-     pred= lrgr.predict(data)
-    st.write(y)
+    # Apply model to make predictions
+    prediction = lrgr.predict(df)
+    st.write(prediction)
+
+     
 
     
 
