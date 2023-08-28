@@ -62,6 +62,9 @@ with model_training:
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
     lrgr = LinearRegression()
     lrgr.fit(X, y)
+
+
+     pred= lrgr.predict(df)
     st.write(y)
 
     
